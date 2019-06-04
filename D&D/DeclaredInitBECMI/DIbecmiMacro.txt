@@ -1,0 +1,25 @@
+The body of a simple macro with a dropdown selection is:
+
+!DeclaredInitiative ?{Action Type|&#x2694 Melee|&#x1F3F9 Missile|&#x1F52E Magic|&#x1F527 Other}
+
+
+The body of a macro with a dropdown selection as well as a query for init bonus (useful for skills like Quick Draw):
+
+!DeclaredInitiative ?{Action Type|&#x2694 Melee|&#x1F3F9 Missile|&#x1F52E Magic|&#x1F527 Other} ?{Bonus|0}
+
+To sort easily (you could just sort from clicking, up to you), macro: !SortInitiative
+
+To clear easily (again, you could just click), macro: !ClearInitiative
+
+Here's the body of a menu macro I use:
+
+/w gm &{template:5eDefault}  {{title=Initiative}} {{subheader=}} {{freetext=[Initiative](!&#13;#Initiative)
+[Sort](!SortInitiative)
+[Clear](!ClearInitiative)}}
+
+Finally, while I ruled in my game that 2 handed weapons don't make you lose individual initiative, I added that functionality
+in case you rule otherwise. Replace the 2 initiative macros with these:
+
+!DeclaredInitiative ?{Action Type|&#x2694 Melee|&#x1F3F9 Missile|&#x1F52E Magic|&#x1F932 2Hander|&#x1F527 Other} ?{Bonus|0}
+
+!DeclaredInitiative ?{Action Type|&#x2694 Melee|&#x1F3F9 Missile|&#x1F932 2Hander|&#x1F52E Magic|&#x1F527 Other}

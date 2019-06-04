@@ -1,0 +1,24 @@
+&{template:npcaction} {{name=Size and Shape}} {{rname=Shape Maker}} {{description=**Circle Radius**
+[5 ft](!TemplateGenerator Circle 5) | [10 ft](!TemplateGenerator Circle 10) | [20 ft](!TemplateGenerator Circle 20) | [30 ft](!TemplateGenerator Circle 30) | [40 ft](!TemplateGenerator Circle 40)
+________________________
+**Square Side**
+[10 ft](!TemplateGenerator Square 10) | [15 ft](!TemplateGenerator Square 15) | [20 ft](!TemplateGenerator Square 20) | [40 ft](!TemplateGenerator Square 40)
+________________________
+**Cones**
+[60](!TemplateGenerator Cone 60 135) -------- [60](!TemplateGenerator Cone 60 90) -------- [60](!TemplateGenerator Cone 60 45)
+----[30](!TemplateGenerator Cone 30 135) ---- [30](!TemplateGenerator Cone 30 90) ---- [30](!TemplateGenerator Cone 30 45)----
+--------[15](!TemplateGenerator Cone 15 135)  [15](!TemplateGenerator Cone 15 90)  [15](!TemplateGenerator Cone 15 45)---------
+[6](!TemplateGenerator Cone 60 180) [3](!TemplateGenerator Cone 30 180) [15](!TemplateGenerator Cone 15 180)🧙[15](!TemplateGenerator Cone 15 0) [3](!TemplateGenerator Cone 30 0) [6](!TemplateGenerator Cone 60 0)
+--------[15](!TemplateGenerator Cone 15 225)  [15](!TemplateGenerator Cone 15 270) [15](!TemplateGenerator Cone 15 315)---------
+----[30](!TemplateGenerator Cone 30 225) ---- [30](!TemplateGenerator Cone 30 270) ---- [30](!TemplateGenerator Cone 30 315)----
+[60](!TemplateGenerator Cone 60 225) -------- [60](!TemplateGenerator Cone 60 270) -------- [60](!TemplateGenerator Cone 60 315)
+________________________
+**Lines**
+[100](!TemplateGenerator Line 100 135)------[100](!TemplateGenerator Line 100 90)------[100](!TemplateGenerator Line 100 45)
+----[60](!TemplateGenerator Line 60 135) --- [60](!TemplateGenerator Line 60 90) ---- [60](!TemplateGenerator Line 60 45)----
+--------[30](!TemplateGenerator Line 30 135)  [30](!TemplateGenerator Line 30 90)  [30](!TemplateGenerator Line 30 45)---------
+[10](!TemplateGenerator Line 100 180) [6](!TemplateGenerator Line 60 180) [3](!TemplateGenerator Line 30 180)🧙[3](!TemplateGenerator Line 30 0) [6](!TemplateGenerator Line 60 0) [10](!TemplateGenerator Line 100 0)
+--------[30](!TemplateGenerator Line 30 225)  [30](!TemplateGenerator Line 30 270) [30](!TemplateGenerator Line 30 315)---------
+----[60](!TemplateGenerator Line 60 225) --- [60](!TemplateGenerator Line 60 270) --- [60](!TemplateGenerator Line 60 315)----
+[100](!TemplateGenerator Line 100 225)------[100](!TemplateGenerator Line 100 270)------[100](!TemplateGenerator Line 100 315)
+}}

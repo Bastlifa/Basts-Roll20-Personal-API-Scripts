@@ -1,0 +1,1 @@
+!RollForHP ?{xdy} ?{hp bonus}
